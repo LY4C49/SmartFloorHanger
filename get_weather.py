@@ -15,7 +15,7 @@ FIN=26
 GPIO.setup(FOUT,GPIO.OUT,initial=GPIO.LOW)
 GPIO.setup(FIN,GPIO.IN)
 
-key='SilAvUA3kkSTh8Sck'
+key=''
 
 currentWeatherAPI='https://api.seniverse.com/v3/weather/now.json'
 LOCATION = requests.get('https://checkip.amazonaws.com').text.strip()#获取本机ip地址
