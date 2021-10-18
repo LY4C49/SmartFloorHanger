@@ -11,7 +11,7 @@ from Blinker.BlinkerDebug import *
 import RPi.GPIO as GPIO
 import time
 
-auth = '5ae7a5b5503a'
+auth = ''
 
 GPIO.setmode(GPIO.BCM)
 
