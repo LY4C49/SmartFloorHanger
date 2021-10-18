@@ -8,7 +8,7 @@
 
 Hardware requirements: Raspberry 4B, Arduino uno r3, ACRYLIC, DC motor, DHT11 Sensor, Bluetooth HC-05, Light Sensor
 
-![image]()
+![image](https://github.com/LY4C49/Smar_Floor_Hanger/blob/main/Results.jpg)
 
 
 
