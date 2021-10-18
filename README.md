@@ -6,17 +6,24 @@
 
 #### The repository contains codes of my design in 2018 GuangDong Undergraduate Electronic Design Competition
 
-Hardware requirements: Raspberry 4B, Arduino uno r3, ACRYLIC, DC motor, DHT11 Sensor, Bluetooth HC-05, Light Sensor, Ultrasonic distance sensor
+##### Hardware requirements: Raspberry 4B, Arduino uno r3, ACRYLIC board, DC motor, DHT11 Sensor, Bluetooth HC-05, Light Sensor, Ultrasonic distance sensor
 
-If you want to make the all system, you can order an ACRYLIC through ACRYLIC.SLDPRT(open through Solidwork)
+If you want to make the all system, you can design and order an ACRYLIC board. We provide our ACRYLIC.SLDPRT(open through Solidwork) as reference.
 
 1.Download "Blink" app on your phone and register  
-2.Register to "心知天气" and get your key (you will get weather service through the api) 
+  
+2.Register to "心知天气" and get your key (you will get weather service through the api,or you can replace it to another api if you want) 
+  
 3.Replace the "auth" to your key(blinker's key) in MQTT.py  
-4.Replace the "key to your key(weather's key) in get_weather.py  
+  
+4.Replace the "key to your key(weather's key) in get_weather.py
+  
 5.connect your Arduino with Raspberry  
+  
 6.run .ino file on your Arduino  
+  
 7.run .py files on your Raspberry  
+  
 8.Enjoy it! Control your hanger through your phone or let your hanger control itself automatically!
 
 ### APP on your phone(you can design your own UI)
