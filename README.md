@@ -6,8 +6,18 @@
 
 #### The repository contains codes of my design in 2018 GuangDong Undergraduate Electronic Design Competition
 
-Hardware requirements: Raspberry 4B, Arduino uno r3, ACRYLIC, DC motor, DHT11 Sensor, Bluetooth HC-05, Light Sensor
+Hardware requirements: Raspberry 4B, Arduino uno r3, ACRYLIC, DC motor, DHT11 Sensor, Bluetooth HC-05, Light Sensor, Ultrasonic distance sensor
 
+If you want to make the all system, you can order an ACRYLIC through ACRYLIC.SLDPRT(open through Solidwork)
+
+1.Download "blink" app on your phone and register
+2.Register to "心知天气" and get your key(you will get weather service through the api) in MQTT.py
+3.Replace the "auth" to your key(blinker's key)
+4.Replace the "key to your key(weather's key) in get_weather.py
+5.connect your Arduino with Raspberry
+6.run .ino file on your Arduino
+7.run .py files on your Raspberry
+![image]()
 ![image](https://github.com/LY4C49/Smar_Floor_Hanger/blob/main/Results.jpg)
 
 
